@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<title>BOOTSTRAP WEBSITE</title>
+
+	<!--iconos material desing-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	  rel="stylesheet">
+	  
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!--custom css-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+
+
+
+</head>
+<body>
+	
+	<!--NAVIGATION-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+				<a class="navbar-brand" href="/">
+						<img src="imagenes/logo.png" style="width: 20%" alt="Fazt">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+					  <ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+						  <a class="nav-link" id="navs" href="#">About</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Team</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Contact</a>
+						</li>
+					  </ul>
+					</div>
+		</div>
+	  </nav>
+
+
+	  <!--HEADER-->
+
+	  <header class="main-header">
+		  <div class="background-overlay text-white py-5">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-6 text-center justify-content-center align-self-center">
+						<h1>This is title or o phrase related to the product </h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+						<a href="#" class="btn btn-outline-secondary btn-lg text-white">
+							Read More
+						</a>
+					</div>
+					<div class="col-md6">
+						<img src="imagenes/product.jpg" alt="imagen del productos" width="80%" class="img-fluid d-none d-sm-block">
+					</div>
+				</div>
+			</div>
+		  </div>
+	  </header>
+
+
+	  <!--NEWSLETTER-->
+
+	  <section class="bg-dark text-white py-5">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-4">
+					  <input type="text" class="form-control form-control-lg" placeholder="Enter your name">
+				  </div>
+				  <div class="col-md-4">
+						<input type="email" class="form-control form-control-lg" placeholder="Enter your email">
+				  </div>
+				  <div class="col-md-4">
+					  <button class="btn btn-primary btn-lg btn-block">
+						  Suscribete
+					  </button>
+				  </div>
+			  </div>
+		  </div>
+		  
+	  </section>
+
+
+	  <!--FEATURES-->
+
+	  <section class="py-5">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-3">
+					  <div class="card text-center border-primary">
+						  <div class="card-body">
+							  <h3 class="">Feature One</h3>
+							  <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-md-3">
+						<div class="card text-center bg-primary text-white">
+							<div class="card-body">
+								<h3 class="">Feature Two</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+				  </div>
+				  <div class="col-md-3">
+						<div class="card text-center border-primary">
+							<div class="card-body">
+								<h3 class="">Feature Thre</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+				  </div>
+				  <div class="col-md-3">
+						<div class="card text-center bg-primary text-white">
+							<div class="card-body">
+								<h3 class="">Feature four</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+							</div>
+						</div>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+	  <!-- ABOUT -->
+	  <section class="bg-light text-center">
+		  <div class="container">
+			  <div class="row">
+				  <div class="m-5">
+					  <h2>Why this Product?</h2>
+					  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quisquam, tenetur itaque porro, eos ad suscipit nobis maxime iste voluptatem harum rem est vel veniam?</p>
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+
+	  <!-- ACCORDION-->
+
+	  <div class="container">
+		<div class="row">
+			<div class="col-6 offset-3 text-center">
+				<div class="accordion " id="accordionExample">
+						<div class="card">
+							  <div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+								  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Question one
+								  </button>
+								</h2>
+							  </div>
+						  
+							  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div class="card-body">
+								 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus error id voluptatibus, obcaecati vero et?
+								</div>
+							  </div>
+							</div>
+							<div class="card">
+							  <div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+								  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Question two
+								  </button>
+								</h2>
+							  </div>
+							  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								<div class="card-body">
+								  	Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam maiores, animi eaque distinctio sed.
+								</div>
+							  </div>
+							</div>
+							<div class="card">
+							  <div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+								  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Question three
+								  </button>
+								</h2>
+							  </div>
+							  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								<div class="card-body">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nisi cum voluptas ducimus iure non.
+								</div>
+								</div>
+						</div> <!--card-->
+						<div class="card">
+								<div class="card-header" id="headingCuart">
+								  <h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseCuart" aria-expanded="false" aria-controls="collapseThree">
+									  Question cuart
+									</button>
+								  </h2>
+								</div>
+								<div id="collapseCuart" class="collapse" aria-labelledby="headingCuart" data-parent="#accordionExample">
+								  <div class="card-body">
+									  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nisi cum voluptas ducimus iure non.
+								  </div>
+								  </div>
+						  </div> <!--card-->
+					</div> <!--accordion-->
+				</div> <!--col-6-->
+		</div> <!--row-->
+	</div> <!--container-->
+
+
+	<!--TEAM-->
+
+	<section class="team text-center">
+		<div class="container p-5">
+			<h1 class="text-white ">Team</h1>
+			<p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nam?</p>
+			<div class="row">
+				<!--MEMBRE-->
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="card-body">
+							<img src="imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Persone one">
+							<h3>Reynel Medina</h3>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<div class="d-flex flex-row justify-content-center">
+
+
+								<div class="p-2">
+									<a href="">
+										<i><img src="imagenes/icons8-github-50.png" style="width: 40px;" alt=""></i>
+									</a>
+								</div>
+
+
+								<div class="p-2">
+									<a href="">
+										<i><img src="imagenes/icons8-instagram-50.png" style="width: 40px;" alt=""></i>
+									</a>
+								</div>
+
+
+								<div class="p-2">
+									<a href="">
+										<i><img src="imagenes/icons8-linkedin-50.png" style="width: 40px;" alt=""></i>
+									</a>
+								</div>
+								
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<img src="imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Persone one">
+								<h3>Jhoan Medina</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<div class="d-flex flex-row justify-content-center">
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-github-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-instagram-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-linkedin-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+									
+	
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="col-lg-4">
+						<div class="card">
+							<div class="card-body">
+								<img src="imagenes/person.png" class="img-fluid rounded-circle w-50" alt="Persone one">
+								<h3>Robert Medina</h3>
+								<p>Lorem ipsum dolor sit amet.</p>
+								<div class="d-flex flex-row justify-content-center">
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-github-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-instagram-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+	
+	
+									<div class="p-2">
+										<a href="">
+											<i><img src="imagenes/icons8-linkedin-50.png" style="width: 40px;" alt=""></i>
+										</a>
+									</div>
+									
+	
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>
+		</div>
+
+
+	</section>
+
+
+	<!--CONTACT-->
+	<section class="bg-light oy-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<h3>Contacto</h3>
+					<p>Lorem ipsum dolor sit amet.</p>
+					<form action="">
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+							  <span class="input-group-text"><img src="imagenes/user.png" alt=""></span>
+							</div>
+							<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+						</div>
+
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+							  <span class="input-group-text"><img src="imagenes/email.png" alt=""></span>
+							</div>
+							<input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+						</div>
+
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+							  <span class="input-group-text"><img src="imagenes/lapiz.png" alt=""></span>
+							</div>
+							<textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+						</div>
+						<button class="btn btn-primary btn-lg btn-block">
+							Send Your Message
+						</button>
+					</form>
+				</div>
+				<div class="col-lg-3 align-self-center" >
+					<img src="imagenes/logo.png" class="" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container p-3 text-white text-center">
+			<p>Copyright &copy; 2019</p>
+			<p>Creator by: <strong>Fazt</strong> & <strong>SirCookies</strong></p>
+			
+		</div>
+	</footer>
+
+
+	<!--script bootstrap-->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
